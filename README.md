@@ -378,6 +378,70 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
+*Weird tp*
+
+```
+{
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-2147483648"
+}
+```
+
+*R15 speedhack*
+
+```
+{
+  "DFIntHipHeightClamp": "-7",
+  "DFIntUnstickForceAttackInTenths": "-1"
+}
+```
+
+*Ragdoll yourself*
+
+```
+{
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+  "FIntPGSAngularDampingPermilPersecond": "0"
+}
+```
+
+*Really fast wall-glide*
+
+```
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "DFIntUnstickForceAttackInTenths": "-4"
+}
+```
+
+*Prevents position tp*
+
+```
+{
+    "DFIntRaycastMaxDistance": "2",
+    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
+}
+```
+
+*Ultimate desync*
+
+```
+{
+"DFIntS2PhysicsSenderRate": "1",
+"FIntPGSAngularDampingPermilPersecond": "0"
+}
+```
+
+*Less knockback*
+
+```
+{
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "-1",
+    "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
+}
+```
+
 # Visusals
 
 *Semi full-bright*
