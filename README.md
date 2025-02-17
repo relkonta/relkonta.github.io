@@ -1,4 +1,4 @@
-# relkonta.github.io
+# $̶$̶$̶-̶_̶_̶
 ___
 
 # Quality Of Life
@@ -172,13 +172,22 @@ __(Making the negative value bigger causes your hip height clamp to be higher)__
 }
 ```
 
-*Weird movement*
+*Weird movement #1*
 
 ```
 {
     "FFlagSimAdaptiveTimesteppingDefault2": "True",
     "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
     "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+
+*Weird movement #2*
+
+```
+{
+    "DFIntSolidFloorPercentForceApplication": "-1000",
+    "DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
 
@@ -441,6 +450,8 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
     "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
 }
 ```
+
+**
 
 # Visusals
 
