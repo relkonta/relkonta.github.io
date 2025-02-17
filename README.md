@@ -331,7 +331,7 @@ __(Adjust the value so you dont fall through the ground)__
 
 ```
 {
-    "DFIntMaxMissedWorldStepsRemembered": "1"
+    "DFIntSimBroadPhasePairCountMax": "50"
 }
 ```
 
