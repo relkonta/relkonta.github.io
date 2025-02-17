@@ -393,11 +393,29 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*Fling yourself*
+*Fling yourself #1*
 
 ```
 {
 "DFIntNewRunningBaseGravityReductionFactorHundredth": "2500"
+}
+```
+
+*Fling yourself #2*
+
+```
+{
+ "DFFlagSimHumanoidTimestepModelUpdate": "true",
+ "DFFlagSimRefactorCollisionGeometry2": "true",
+ "DFIntMaxAltitudePDHipHeightPercent": "-825000",
+ "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
+ "DFIntMaximumFreefallMoveTimeInTenths": "-2147483648",
+ "DFIntMaximumUnstickForceInGs": "10000000000",
+ "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000",
+ "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1323232",
+ "DFIntUnstickForceAttackInTenths": "50",
+ "FFlagEnablePhysicsAdaptiveTimeSteppingIXP": "true",
+ "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
 }
 ```
 
