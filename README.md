@@ -656,3 +656,22 @@ __(A bit buggy)__
 "FFlagDebugSkyGray": "True"
 }
 ```
+
+# Presets
+
+*High quality graphics, lighting etc.*
+
+```
+{
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3",
+    "DFIntCanHideGuiGroupId":	"32380007",
+    "DFIntTaskSchedulerTargetFps": "999",
+    "FFlagDebugForceFutureIsBrightPhase3": "True",
+    "FFlagDebugGraphicsPreferD3D11": "True",
+    "FFlagRenderInitShadowmaps": "true",
+    "FFlagDebugSkyGray": "True",
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
+
