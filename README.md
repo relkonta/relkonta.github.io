@@ -331,16 +331,6 @@ __(Adjust the value so you dont fall through the ground)__
 
 ```
 {
-    "DFIntSimBroadPhasePairCountMax": "50"
-}
-```
-
-*Noclip #2*
-
-__(Adjust the value so you dont fall through the ground)__
-
-```
-{
 "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
 }
 ```
