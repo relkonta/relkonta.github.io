@@ -363,6 +363,28 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
+*Breaks physics*
+
+```
+{
+  "FLogNetwork": "7",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "DFIntCanHideGuiGroupId": "32380007",
+  "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
+  "DFIntMaxFrameBufferSize": "4",
+  "DFIntS2PhysicsSenderRate": "250",
+  "FFlagLuauSolverV2": "True",
+  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+  "FIntInterpolationAwareTargetTimeLerpHundredth": "110",
+  "FFlagReplicateAnimationLooped": "False",
+  "FFlagGraphicsFixMsaaInGuiScene": "True",
+  "DFFlagSimSolverOptimizeLDLCache": "True",
+  "FFlagEnableSceneAnalysis": "False",
+  "DFIntGraphicsOptimizationModeMaxFrameTimeTargetMs": "20"
+}
+```
+
 *Become short*
 
 ```
