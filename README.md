@@ -448,6 +448,18 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
+*Fling yourself #4*
+
+```
+{
+  "DFIntMaxAltitudePDHipHeightPercent": "-5000",
+  "DFFlagSimStepPhysicsImprovedSubStepping": "true",
+  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-10000000"
+}
+```
+
 *High ladder-flicks*
 
 ```
@@ -528,7 +540,7 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*Purely broken movement*
+*Purely broken movement #1*
 
 ```
 {
@@ -536,6 +548,22 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
   "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
   "DFIntMaximumFreefallMoveTimeInTenths": "0",
   "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1"
+}
+```
+*Purely broken movement #2*
+
+```
+{
+"DFIntAssemblyExtentsExpansionStudHundredth": "-10",
+ "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483648",
+ "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+ "DFIntMaxAltitudePDHipHeightPercent": "-5000",
+ "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
+ "DFIntMaximumFreefallMoveTimeInTenths": "2147483648",
+ "DFIntMaxMissedWorldStepsRemembered": "1000",
+"DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-10000000",
+ "DFIntSmoothTerrainPhysicsRayAabbSlop": "-2147483648",
+ "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647"
 }
 ```
 
