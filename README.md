@@ -191,6 +191,24 @@ __(Making the negative value bigger causes your hip height clamp to be higher)__
 }
 ```
 
+*Weird movement #3*
+
+```
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1"
+}
+```
+
+*Weird movement #4*
+
+```
+{
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
+
 *No animation*
 
 __(Only shown on the servers side)__
@@ -419,6 +437,17 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
+*Fling yourself #3*
+
+```
+{
+  "DFIntMaxAltitudePDHipHeightPercent": "-1000",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-200000",
+  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647",
+  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647"
+}
+```
+
 *High ladder-flicks*
 
 ```
@@ -491,7 +520,35 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-**
+*Slightly higher jump*
+
+```
+{
+"SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
+}
+```
+
+*Purely broken movement*
+
+```
+{
+  "DFIntRaycastMaxDistance": "-110",
+  "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+  "DFIntMaximumFreefallMoveTimeInTenths": "0",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1"
+}
+```
+
+*Become paralysed*
+
+```
+{
+  "DFIntMaxAltitudePDHipHeightPercent": "-700",
+  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1",
+  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
+  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647"
+}
+```
 
 # Visusals
 
