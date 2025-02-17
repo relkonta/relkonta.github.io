@@ -1,2 +1,2 @@
-# relkonta.github.io
+# FFlags
 Documentation of fflags
