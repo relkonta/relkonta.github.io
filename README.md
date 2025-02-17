@@ -578,6 +578,14 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
+*Prevents remote events from running*
+
+```
+{
+"DFIntRemoteEventSingleInvocationSizeLimit": "1"
+}
+```
+
 # Visusals
 
 *Semi full-bright*
