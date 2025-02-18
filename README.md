@@ -714,3 +714,26 @@ __(A bit buggy)__
 }
 ```
 
+*Rtx*
+
+```
+{
+    "FFlagDebugGraphicsPreferD3D11": "True",
+    "FFlagDebugForceFutureIsBrightPhase3": "True",
+    "FFlagDebugDeterministicParticles" : "True",
+    "FFlagDebugRenderingSetDeterministic": "True",
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3",
+    "FIntSSAO": "3",
+    "FIntSSAOMipLevels": "3",
+    "FFlagDebugSSAOForce": "True",
+    "FFlagUseDeferredRendering": "True",
+    "FFlagDebugEnableOctreeValidation": "True",
+    "FFlagSimEnableDCD16": "True",
+    "DFFlagESGamePerfMonitorEnabled": "True",
+    "FFlagRenderUnifiedLighting10": "True",
+    "FFlagUnifiedLightingBetaFeature": "True",
+    "FFlagFRMRefactor": "True",
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
