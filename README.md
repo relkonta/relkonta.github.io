@@ -1,6 +1,10 @@
 # $̶$̶$̶-̶_̶_̶
 ___
 
+*Spotify*
+
+<Spotify link="https://open.spotify.com/album/2QRedhP5RmKJiJ1i8VgDGR" />
+
 # Quality Of Life
 
 *Faster preloading*
