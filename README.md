@@ -209,6 +209,18 @@ __(Making the negative value bigger causes your hip height clamp to be higher)__
 }
 ```
 
+*Weird movement #5*
+
+```
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "FIntPGSAngularDampingPermilPersecond": "0",
+    "DFIntMaxAltitudePDHipHeightPercent": "-100",
+    "DFIntUnstickForceAttackInTenths": "-4",
+    "DFFlagSimHumanoidPhysics": "True"
+}
+```
+
 *No animation*
 
 __(Only shown on the servers side)__
