@@ -653,9 +653,18 @@ __(A bit buggy)__
 
 ```
 {
-"FFlagDebugSkyGray": "True"
+    "FFlagDebugSkyGray": "True"
 }
 ```
+
+*Really low quality*
+
+```
+{
+    "DFIntDebugDynamicRenderKiloPixels": "1"
+}
+```
+
 
 # Presets
 
