@@ -677,6 +677,16 @@ __(A bit buggy)__
 }
 ```
 
+*Esp*
+
+```
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
+}
+```
 
 # Presets
 
@@ -693,17 +703,6 @@ __(A bit buggy)__
     "FFlagRenderInitShadowmaps": "true",
     "FFlagDebugSkyGray": "True",
     "FFlagDebugRenderingSetDeterministic": "True"
-}
-```
-
-*Esp*
-
-```
-{
-    "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "False",
-    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 
