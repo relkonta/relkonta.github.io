@@ -347,6 +347,14 @@ __(Adjust the value so you dont fall through the ground)__
 }
 ```
 
+*Noclip #2 / Mesh noclip*
+
+```
+{
+    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
+}
+```
+
 *Consistent high jump*
 
 __(The higher the negative value the higher you jump, 0 Makes you float)__
