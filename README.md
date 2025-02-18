@@ -334,7 +334,7 @@ __(This is too confusing to explain though it does have to do with tab glitching
 
 ```
 {
-    "DFIntMaxMissedWorldStepsRemembered": "1"
+    "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
 
