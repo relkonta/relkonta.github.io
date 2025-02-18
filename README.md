@@ -1,6 +1,7 @@
 # $̶$̶$̶-̶_̶_̶
 ___
 
+[![Spotify Playlist](https://i.scdn.co/image/ab67616d0000b273a40f350de51dbf4cf2f1b2b7)](https://open.spotify.com/playlist/2QRedhP5RmKJiJ1i8VgDGR)
 
 # Quality Of Life
 
