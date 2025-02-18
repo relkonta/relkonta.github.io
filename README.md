@@ -684,3 +684,14 @@ __(A bit buggy)__
 }
 ```
 
+*Esp*
+
+```
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
+}
+```
+
