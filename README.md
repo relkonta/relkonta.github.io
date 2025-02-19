@@ -1,6 +1,13 @@
 # $̶$̶$̶-̶_̶_̶
 ___
 
+# How to use place Filter
+
+1. Add _PlaceFilter after the Fast Flag name.
+2. Add a semicolon after the Value (;). Examples: True;, 1;.
+3. Include a Place ID after the semicolon. Examples: True;4483381587, 1;4483381587.
+4. Your configuration is complete.
+
 
 # Quality Of Life
 
