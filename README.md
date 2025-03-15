@@ -507,7 +507,7 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*Become paralysed*
+*???*
 
 ```
 {
