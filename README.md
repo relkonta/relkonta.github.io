@@ -170,6 +170,24 @@ __(This is for vociechat)__
 }
 ```
 
+*Slide on terrain*
+
+```
+{
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+}
+```
+
+*Terrain fly*
+
+```
+{
+"DFIntBulletContactBreakOrthogonalThresholdPercent": -2147483647,
+"DFIntBulletContactBreakOrthogonalThresholdActivatePercent": 2147483647,
+"DFIntBulletContactBreakThresholdPercent": 15000
+}
+```
+
 *Adjust your hip height clamp (Only works with the mage animation in r15)*
 
 __(Making the negative value bigger causes your hip height clamp to be higher)__
@@ -224,7 +242,6 @@ __(Making the negative value bigger causes your hip height clamp to be higher)__
     "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
     "FIntPGSAngularDampingPermilPersecond": "0",
     "DFIntMaxAltitudePDHipHeightPercent": "-100",
-    "DFIntUnstickForceAttackInTenths": "-4",
     "DFFlagSimHumanoidPhysics": "True"
 }
 ```
@@ -260,16 +277,6 @@ __(Breaks leg collision from -2 to inf, Kind of breaks camera on values above 3 
 }
 ```
 
-*High jump*
-
-__(Higher values cause you to bug out much more and have a higher jump)__
-
-```
-{
-    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
-}
-```
-
 *Disable touch events*
 
 ```
@@ -283,16 +290,6 @@ __(Higher values cause you to bug out much more and have a higher jump)__
 ```
 {
 	"DFIntMaxFrameBufferSize": "2"
-}
-```
-
-*Fake lag*
-
-__(This is only shown on the server's client)__
-
-```
-{
-    "DFIntS2PhysicsSenderRate": "1"
 }
 ```
 
@@ -345,17 +342,7 @@ __(This is too confusing to explain though it does have to do with tab glitching
 }
 ```
 
-*Noclip #1*
-
-__(Adjust the value so you dont fall through the ground)__
-
-```
-{
-"DFIntAssemblyExtentsExpansionStudHundredth": "-50"
-}
-```
-
-*Noclip #2 / Mesh noclip*
+*Mesh noclip*
 
 ```
 {
@@ -370,14 +357,6 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 ```
 {
     "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
-}
-```
-
-*Wall glide*
-
-```
-{
-    "DFIntUnstickForceAttackInTenths": "-4"
 }
 ```
 
@@ -409,7 +388,6 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
   "DFIntCanHideGuiGroupId": "32380007",
   "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
   "DFIntMaxFrameBufferSize": "4",
-  "DFIntS2PhysicsSenderRate": "250",
   "FFlagLuauSolverV2": "True",
   "DFIntMaximumFreefallMoveTimeInTenths": "1000",
   "FIntInterpolationAwareTargetTimeLerpHundredth": "110",
@@ -433,29 +411,19 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 
 ```
 {
-"DFIntNewRunningBaseGravityReductionFactorHundredth": "2500"
-}
-```
-
-*Fling yourself #2*
-
-```
-{
  "DFFlagSimHumanoidTimestepModelUpdate": "true",
  "DFFlagSimRefactorCollisionGeometry2": "true",
  "DFIntMaxAltitudePDHipHeightPercent": "-825000",
  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
  "DFIntMaximumFreefallMoveTimeInTenths": "-2147483648",
  "DFIntMaximumUnstickForceInGs": "10000000000",
- "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000",
  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1323232",
- "DFIntUnstickForceAttackInTenths": "50",
  "FFlagEnablePhysicsAdaptiveTimeSteppingIXP": "true",
  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
 }
 ```
 
-*Fling yourself #3*
+*Fling yourself #2*
 
 ```
 {
@@ -466,7 +434,7 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*Fling yourself #4*
+*Fling yourself #3*
 
 ```
 {
@@ -478,28 +446,11 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*High ladder-flicks*
-
-```
-{
- "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
-}
-```
-
 *Weird tp*
 
 ```
 {
   "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-2147483648"
-}
-```
-
-*R15 speedhack*
-
-```
-{
-  "DFIntHipHeightClamp": "-7",
-  "DFIntUnstickForceAttackInTenths": "-1"
 }
 ```
 
@@ -509,35 +460,6 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 {
   "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
   "FIntPGSAngularDampingPermilPersecond": "0"
-}
-```
-
-*Really fast wall-glide*
-
-```
-{
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True",
-    "DFIntUnstickForceAttackInTenths": "-4"
-}
-```
-
-*Prevents position tp*
-
-```
-{
-    "DFIntRaycastMaxDistance": "2",
-    "DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
-}
-```
-
-*Ultimate desync*
-
-```
-{
-"DFIntS2PhysicsSenderRate": "1",
-"FIntPGSAngularDampingPermilPersecond": "0"
 }
 ```
 
