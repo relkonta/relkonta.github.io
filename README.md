@@ -246,6 +246,14 @@ __(Making the negative value bigger causes your hip height clamp to be higher)__
 }
 ```
 
+*Wall glide*
+
+```
+{
+    "DFIntMaximumUnstickForceInGs": "-10"
+}
+```
+
 *No animation*
 
 __(Only shown on the servers side)__
@@ -290,6 +298,14 @@ __(Breaks leg collision from -2 to inf, Kind of breaks camera on values above 3 
 ```
 {
 	"DFIntMaxFrameBufferSize": "2"
+}
+```
+
+*Drive cars slow*
+
+```
+{
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
 }
 ```
 
