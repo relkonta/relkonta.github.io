@@ -366,16 +366,6 @@ __(This is too confusing to explain though it does have to do with tab glitching
 }
 ```
 
-*Consistent high jump*
-
-__(The higher the negative value the higher you jump, 0 Makes you float)__
-
-```
-{
-    "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
-}
-```
-
 *Better network ownership*
 
 ```
@@ -398,20 +388,10 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 
 ```
 {
-  "FLogNetwork": "7",
-  "FFlagHandleAltEnterFullscreenManually": "False",
-  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
-  "DFIntCanHideGuiGroupId": "32380007",
-  "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
-  "DFIntMaxFrameBufferSize": "4",
   "FFlagLuauSolverV2": "True",
   "DFIntMaximumFreefallMoveTimeInTenths": "1000",
   "FIntInterpolationAwareTargetTimeLerpHundredth": "110",
   "FFlagReplicateAnimationLooped": "False",
-  "FFlagGraphicsFixMsaaInGuiScene": "True",
-  "DFFlagSimSolverOptimizeLDLCache": "True",
-  "FFlagEnableSceneAnalysis": "False",
-  "DFIntGraphicsOptimizationModeMaxFrameTimeTargetMs": "20"
 }
 ```
 
@@ -419,46 +399,38 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 
 ```
 {
-"DFIntMaxAltitudePDHipHeightPercent": "-100"
-}
+"DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "5",
+"DFIntMaxAltitudePDHipHeightPercent": "-10",
+"DFIntNewPDAltitudeNoForceZonePercent": "-5"
+} 
 ```
 
-*Fling yourself #1*
-
-```
-{
- "DFFlagSimHumanoidTimestepModelUpdate": "true",
- "DFFlagSimRefactorCollisionGeometry2": "true",
- "DFIntMaxAltitudePDHipHeightPercent": "-825000",
- "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
- "DFIntMaximumFreefallMoveTimeInTenths": "-2147483648",
- "DFIntMaximumUnstickForceInGs": "10000000000",
- "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1323232",
- "FFlagEnablePhysicsAdaptiveTimeSteppingIXP": "true",
- "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
-}
-```
-
-*Fling yourself #2*
+*weird physics*
 
 ```
 {
   "DFIntMaxAltitudePDHipHeightPercent": "-1000",
   "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-200000",
   "SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647",
-  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647"
 }
 ```
 
-*Fling yourself #3*
+*No velocity*
 
 ```
 {
-  "DFIntMaxAltitudePDHipHeightPercent": "-5000",
-  "DFFlagSimStepPhysicsImprovedSubStepping": "true",
-  "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
-  "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
-  "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-10000000"
+"DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "3",
+"DFIntGameNetPVHeaderRotationalVelocityZeroCutoffExponent": "3",
+"DFIntGameNetPVHeaderLinearVelocityZeroCutoffExponent": "3",
+"DFIntGameNetPVHeaderRotationOrientIdToleranceExponent": "0"
+}
+```
+
+*Ctrl+f7 desync*
+
+```
+{
+"DFFlagDebugEnableInterpThrottle": "true"
 }
 ```
 
@@ -479,20 +451,12 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 }
 ```
 
-*Less knockback*
+*No knockback*
 
 ```
 {
     "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "-1",
     "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
-}
-```
-
-*Slightly higher jump*
-
-```
-{
-"SFFlagBulletContactBreakOrthogonalThresholdPercent": "2147483647"
 }
 ```
 
@@ -510,12 +474,9 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 
 ```
 {
-"DFIntAssemblyExtentsExpansionStudHundredth": "-10",
  "DFIntBulletContactBreakOrthogonalThresholdPercent": "-2147483648",
  "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
  "DFIntMaxAltitudePDHipHeightPercent": "-5000",
- "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647",
- "DFIntMaximumFreefallMoveTimeInTenths": "2147483648",
  "DFIntMaxMissedWorldStepsRemembered": "1000",
 "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-10000000",
  "DFIntSmoothTerrainPhysicsRayAabbSlop": "-2147483648",
@@ -527,7 +488,6 @@ __(The higher the negative value the higher you jump, 0 Makes you float)__
 
 ```
 {
-  "DFIntMaxAltitudePDHipHeightPercent": "-700",
   "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-1",
   "SFFlagBulletContactBreakOrthogonalThresholdPercent": "-2147483647",
   "DFIntMaxAltitudePDStickHipHeightPercent": "2147483647"
@@ -628,17 +588,6 @@ __(A bit buggy)__
 ```
 {
     "DFIntDebugDynamicRenderKiloPixels": "1"
-}
-```
-
-*Esp*
-
-```
-{
-    "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False",
-    "FFlagEnableInGameMenuChrome": "False",
-    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 
