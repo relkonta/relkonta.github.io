@@ -188,16 +188,6 @@ __(This is for vociechat)__
 }
 ```
 
-*Adjust your hip height clamp (Only works with the mage animation in r15)*
-
-__(Making the negative value bigger causes your hip height clamp to be higher)__
-
-```
-{
-    "DFIntHipHeightClamp": "-48"
-}
-```
-
 *Weird movement #1*
 
 ```
