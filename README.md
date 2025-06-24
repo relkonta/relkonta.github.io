@@ -273,14 +273,6 @@ __(Breaks leg collision from -2 to inf, Kind of breaks camera on values above 3 
 }
 ```
 
-*Frame buffer*
-
-```
-{
-	"DFIntMaxFrameBufferSize": "2"
-}
-```
-
 *Drive cars slow*
 
 ```
