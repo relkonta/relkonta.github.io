@@ -178,16 +178,6 @@ __(This is for vociechat)__
 }
 ```
 
-*Terrain fly*
-
-```
-{
-"DFIntBulletContactBreakOrthogonalThresholdPercent": -2147483647,
-"DFIntBulletContactBreakOrthogonalThresholdActivatePercent": 2147483647,
-"DFIntBulletContactBreakThresholdPercent": 15000
-}
-```
-
 *Weird movement #1*
 
 ```
