@@ -334,7 +334,9 @@ __(This is too confusing to explain though it does have to do with tab glitching
 
 ```
 {
-    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
+   "DFIntBulletContactBreakOrthogonalThresholdActivatePercent": 2147483647,
+   "DFIntBulletContactBreakThresholdPercent": -2147483648,
+   "DFIntBulletContactBreakOrthogonalThresholdPercent": -2147483648
 }
 ```
 
@@ -475,22 +477,6 @@ __(This is too confusing to explain though it does have to do with tab glitching
 ```
 
 # Visusals
-
-*Semi full-bright*
-
-__(A bit buggy)__
-
-```
-{
-    "FFlagFastGPULightCulling3": "True",
-    "FIntRenderShadowIntensity": "0",
-    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
-    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
-    "FFlagNewLightAttenuation": "True",
-    "FIntRenderShadowmapBias": "-1",
-    "DFFlagDebugPauseVoxelizer": "True"
-}
-```
 
 *Outline hitboxes #1*
 
