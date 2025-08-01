@@ -1,5 +1,2 @@
-input: ./docs
-output: ./public
-branding:
-  title: fflags
-  label: Docs
+branding: offset
+  title: $fflags
